@@ -41,4 +41,7 @@
             echo "Email non valide";
         }
 
+    } else {
+        header('Location: index.php');
+        die();
     }
